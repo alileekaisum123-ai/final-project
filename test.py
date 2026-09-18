@@ -3,7 +3,7 @@ import os
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
 
-BOT_TOKEN = os.environ["BOT_TOKEN"]
+BOT_TOKEN = os.environ["8990436863:AAGqLR3ufXDPocPYDo9LbAqfzKcyqa8nCEA"]
 
 
 class Planet:
