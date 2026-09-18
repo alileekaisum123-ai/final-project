@@ -1,9 +1,7 @@
-import os
-
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
 
-BOT_TOKEN = os.environ["8990436863:AAGqLR3ufXDPocPYDo9LbAqfzKcyqa8nCEA"]
+BOT_TOKEN = "8990436863:AAGqLR3ufXDPocPYDo9LbAqfzKcyqa8nCEA"
 
 
 class Planet:
@@ -43,7 +41,7 @@ class Planet:
         )
 
 
-# Moon counts are current as of March 2026 (IAU Minor Planet Center) and keep climbing.
+
 DATA = {
     "mercury": Planet(
         "Rocky", "4,879 km", "0", "3.7 m/s²", "176 Earth days", "88 Earth days",
